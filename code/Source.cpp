@@ -5,7 +5,8 @@
 #include <iostream>
 #include <fstream>
 #include <cwchar>
-#include <fstream>
+#include <map>
+#include <vector>
 
 using namespace std;
 
@@ -85,6 +86,7 @@ int createFile(string path, string content) {
 int main(int argc, char *argv[]) {
 
 	// ComputerName changed to WORKSTATION
+	
 
 	wchar_t* activeComputerNameKey = L"SYSTEM\\ControlSet001\\Control\\ComputerName\\ActiveComputerName";
 	wchar_t* activeComputerNameKeyName = L"ComputerName";
